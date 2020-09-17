@@ -14,7 +14,7 @@ const completeBtn = document.getElementById("complete-button");
 // Because these will be used in multiple places
 let countdownTitle = "";
 let countdownDate = "";
-let countdownValue = Date;
+let countdownValue = new Date();
 let countdownActive;
 let savedCountdown;
 
